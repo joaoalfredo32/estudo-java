@@ -3,7 +3,8 @@ package principal;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.print("Hello World");
+		int primeiraParcelaSoma = 0;
+		int segundaPaercelaSoma = 20;
 
 	}
 
