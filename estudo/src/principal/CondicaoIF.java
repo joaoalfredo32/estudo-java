@@ -24,9 +24,9 @@ public class CondicaoIF {
 		int idade = sc.nextInt();
 		System.out.println("Você bebe? (1) Sim (2) Não");
 		int bebe = sc.nextInt();
-		boolean validacao = (idade >= 18 && bebe == 1)?true:false; 
-		
-		if(validacao) {
+		//boolean validacao = (idade >= 18 && bebe == 1)?true:false; 
+		String validacao = (idade >= 18 && bebe == 1)?"MAIOR":"MENOR";
+		if(validacao.equals("MAIOR")) {
 			System.out.println("Você tem mais de 18 anos e bebe");
 		}else {
 			System.out.println("Você tem menos de 18 anos");
